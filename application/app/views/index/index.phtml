@@ -1,4 +1,12 @@
 <?php
-echo "<pre>";
-print_r($this->database->database);
-
+echo "Adapter => ";
+echo $this->database->database['adapter'];
+echo "<br>";
+echo "Host => ";
+echo $this->database->database['host'];
+echo "<br>";
+echo "Username => ";
+echo $this->database->database['username'];
+echo "<br>";
+echo "Database => ";
+echo $this->database->database['dbname'];
